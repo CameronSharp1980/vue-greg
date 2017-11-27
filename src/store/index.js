@@ -14,7 +14,7 @@ var store = new Vuex.Store({
                 description: 'Do you have this car? Its grey poupon get it!!!',
                 imgUrl: 'http://loremflickr.com/200/200/car'
             },
-            'lk34kwsefdceev234blk23b4bjk':{
+            'lk34kwsefdceev234blk23b4bjk': {
                 id: 'lk34kwsefdceev234blk23b4bjk',
                 make: 'Cevy',
                 model: 'Oregon',
@@ -29,6 +29,33 @@ var store = new Vuex.Store({
                 color: 'Much Happy',
                 description: "Such speed, fastness, wow!",
                 imgUrl: 'http://loremflickr.com/200/200/car'
+            }
+
+        },
+        properties: {
+            'hjklh43h5kjhjkl45': {
+                id: 'hjklh43h5kjhjkl45',
+                zoning: 'Industrial',
+                type: 'Warehouse',
+                squareFootage: 10000,
+                description: 'Its a warehouse! get you one!!!',
+                imgUrl: 'http://loremflickr.com/200/200/buiding'
+            },
+            'hjklh43h5kjh546jkl45': {
+                id: 'hjklh43h5kjh546jkl45',
+                zoning: 'Commercial',
+                type: 'Store front',
+                squareFootage: 1500,
+                description: "Its a Store front! get you one!!!",
+                imgUrl: 'http://loremflickr.com/200/200/buiding'
+            },
+            'hjklh43345hfhdh5kjh546jkl45': {
+                id: 'hjklh43345hfhdh5kjh546jkl45',
+                zoning: 'Residential',
+                type: 'Rambler',
+                squareFootage: 1700,
+                description: "Its a Rambler! get you one!!!",
+                imgUrl: 'http://loremflickr.com/200/200/buiding'
             }
 
         }

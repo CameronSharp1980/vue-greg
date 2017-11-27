@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Automotive from '@/components/Automotive'
 import Properties from '@/components/Properties'
 import Details from '@/components/Details'
+import PropertyDetails from '@/components/PropertyDetails'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/properties',
       name: 'properties',
       component: Properties
+    },
+    {
+      path: '/properties/:propertyId',
+      name: 'propertyDetails',
+      component: PropertyDetails
     }
   ]
 })
